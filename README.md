@@ -5,7 +5,7 @@ Implementation of Paper：Hypergraph-based Reinforcement Learning for Stock Port
 
 ## Abstract
 
-
+Stock portfolio selection is an important financial planning task that dynamically re-allocates the investments to stock assets to achieve the goals such as maximal profits or minimal risks. In this paper, we propose a hypergraph-based reinforcement learning method for stock portfolio selection, in which the fundamental issue is to learn a policy function generating appropriate trading actions given the current environments. The historical time-series patterns of stocks are firstly captured. Then, different from prior works ignoring or implicitly modeling stock pairwise correlations, we present a HyperGraph Attention Module (HGAM) in the portfolio policy learning, which utilizes the hypergraph structure to explicitly model the group-wise industry-belonging relationships among stocks. The attention mechanism is also introduced in HGAM that quantifies the importance of different neighbors regarding the target node to aggregate the information on the stock hypergraph adaptively. Extensive experiments on the real-world dataset collected from China’s A-share market demonstrate the significant superiority of our method, compared with state-of-the-art methods in portfolio selection, including both online learning-based methods and reinforcement learning-based methods.
 
 ## Dataset
 
