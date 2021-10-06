@@ -17,7 +17,11 @@ We considered the industry-belonging of stocks. For the former, we grouped all s
 
 ## Models
 
-
+  * `/HGAM/models.py`: the policy network framework;
+  * `/HGAM/module.py`: implementation of hypergraph attention module;   
+  * `/HGTAN/layers.py`: implementation of attention layer;   
+  * `/training/train.py`: train the overall portfolio policy network; 
+  * `/loss/batch_loss.py`: maximizing the accumulated logarithmic returns in reinforcement learning.
 
 ## Requirements
 
